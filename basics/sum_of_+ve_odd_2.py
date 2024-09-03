@@ -1,0 +1,5 @@
+print()
+n=int(input(" enter a positive integer: "))
+sum=sum([i*i for i in range(n) if(i%2 !=0)])
+print(" the sum of odd +ve integers using sum() is",sum)
+print()
